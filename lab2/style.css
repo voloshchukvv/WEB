@@ -1,0 +1,49 @@
+body {
+	margin: 20px;
+}
+#trafficlight {
+	background-color: #D8D8D8;
+	border: 1px solid #010101;
+   border-radius: 15px;
+   height: 160px;
+	width: 70px;
+}
+#trafficlight #red {
+	background-color:#FF0000;
+	border: 1px solid #010101;
+   border-radius: 50%;
+	position: relative;
+	left: 15px;
+	top:8px;
+	height: 40px;
+   width: 40px;
+}
+#trafficlight #red:hover {
+	background-color: #F62B00;
+}
+#trafficlight #yellow {
+	background-color:#FFFF00;
+	border: 1px solid #010101;
+   border-radius: 50%;
+	position: relative;
+	left: 15px;
+	top: 16px;
+	height: 40px;
+   width: 40px;
+}
+#trafficlight #yellow:hover {
+	background-color: #f5f501;
+}
+#trafficlight #green {
+	background-color:#00B050;
+	border: 1px solid #010101;
+   border-radius: 50%;
+	position: relative;
+	left: 15px;
+	top: 24px;
+	height: 40px;
+   width: 40px;
+}
+#trafficlight #green:hover {
+	background-color: #22CC54;
+}

@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+}
+html {
+	height:100%;
+}
+body {
+	font-size: xx-large;
+	background: #DDF2F5;
+	height: 100%;
+}
+
+.container {
+	height: 90%;
+	width: 65%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+#content {
+	height: 60%;
+}
+
+#header {
+	background-color: #239EC6;
+	color: #ECECF8;
+	height: 18%;
+}
+
+#text_left {
+	background-color: #9191FB;
+	color: #ECECF8;
+	float: left;
+ 	height: 100%;
+   width: 50%;
+}
+
+#text_right {
+	background-color: #ADE4F6; 
+	color: #ECECF8;
+   height: 100%;
+   width: 50%;
+   float: left;
+}
+
+#footer {
+	background-color: #239EC6;
+	color: #ECECF8;
+	height: 18%;
+}

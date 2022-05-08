@@ -1,0 +1,47 @@
+body {
+	background-color: #F0FFF0;
+}
+
+
+#form_container {
+	width:500px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset p {
+	margin: 1px;
+}
+
+#form_container fieldset input[type=text] {
+	width:200px;
+}
+
+#form_container fieldset small {
+	color:#333333;
+	font-style: italic;
+	font-size:12px;
+}
+
+.error {
+	border-width: 1px;
+	border-color: #FF0F0F;
+}
+
+#form > p {
+	text-align:center;
+}
+
+#my_table{
+	border-collapse: collapse;
+}
+
+div input[type=color]{
+	width: 150px;
+	margin:15px;
+}
+
+#my_table tr td{
+	border: 1px solid #1D1638;
+	padding: 10px;
+	text-align: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table  {
+            border-collapse:collapse;
+            border-spacing:10px;
+            margin-bottom: 10px;
+        }
+        td {
+            border-color:black;
+            border-style:solid;
+            border-width:2px;
+            font-family:Arial;
+            font-size:14px;
+            overflow:hidden;
+            padding:10px 5px;
+            height: 30px;
+            word-break:normal;
+        }
+        #row_1, #row_2:hover {
+            background-color: #018f8f;
+            color:#122A57;
+        }
+        #row_2, #row_1:hover {
+            background-color: #f5f501;
+            color:#122A57;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Волощук В.В. - студент групи ЗПІ-зп01</title>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="width: 154px">
+            <col style="width: 154px">
+            <col style="width: 154px">
+            <col style="width: 86px">
+            <col style="width: 86px">
+        </colgroup>
+        <tr id="row_1">
+            <td colspan="2" rowspan="2">Волощук</td>
+            <td>Вадим</td>
+            <td rowspan="2">Валентинович</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr id="row_2">
+            <td>ЗПІ-зп01, ЛР №2, варіант №1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <td colspan="2" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <div id="trafficlight">
+        <div id="red"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+    </div>
+</body>
+</html>

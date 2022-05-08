@@ -1,0 +1,32 @@
+.paragraph_1_theme {
+	background-color: #708090;
+	color: #F0FFFF;
+}
+
+.paragraph_2_theme {
+	background-color: #2AAD2B;
+	color: #F5FFFA;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: 1px solid green;
+	color: white;
+	padding: 10px 26px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	float: left;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	background-color: white;
+	color: #4CAF50;
+}
+
+.buttons_block {	
+	margin: 10px;
+	margin-bottom: 100px;
+}
