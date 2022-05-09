@@ -1,0 +1,43 @@
+body {
+	background-color: #E6E6E6;
+	margin:0;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+}
+
+#container {
+	display:flex;
+	margin:auto;
+	width:85%;
+}
+
+#header {
+	text-align: center;
+	font-size: xx-large;
+	background-color: #D2691E;
+	padding: 15px;
+	color: #FCFCFC;
+}
+
+#users {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.user_profile {
+	width: 230px;
+	background-color: Maroon;
+	border: 1px solid #9B700B;
+}
+.user_profile img {
+	margin-top: 5px;
+	margin-left:50px;
+}
+
+
+.user_profile_name,
+.user_profile_location,
+.user_profile_city,
+.user_profile_country {
+	
+	
+}
